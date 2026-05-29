@@ -1,0 +1,610 @@
+[
+  {
+    "review_id": "R001",
+    "platform": "Google Play",
+    "review_date": "2026-04-02",
+    "rating": 2,
+    "sentiment": "negative",
+    "issues": [
+      {
+        "category": "performance",
+        "summary": "Долгая загрузка приложения после обновления",
+        "quote": "После последнего обновления приложение открывается почти минуту",
+        "severity": 3
+      },
+      {
+        "category": "performance",
+        "summary": "Перевод по СБП долго обрабатывается",
+        "quote": "Перевод по СБП крутится долго",
+        "severity": 3
+      },
+      {
+        "category": "reliability",
+        "summary": "Зависание на экране подтверждения",
+        "quote": "один раз зависло на экране подтверждения",
+        "severity": 4
+      }
+    ],
+    "short_summary": "Приложение долго открывается и зависает при переводах"
+  },
+  {
+    "review_id": "R002",
+    "platform": "App Store",
+    "review_date": "2026-04-03",
+    "rating": 4,
+    "sentiment": "positive",
+    "issues": [
+      {
+        "category": "ads",
+        "summary": "Слишком много пушей с кредитами",
+        "quote": "пушей с кредитами слишком много",
+        "severity": 2
+      },
+      {
+        "category": "ads",
+        "summary": "Баннеры внутри приложения остаются после отключения рекламы",
+        "quote": "Выключила рекламу, а баннеры внутри всё равно остаются",
+        "severity": 2
+      }
+    ],
+    "short_summary": "Нравится дизайн, но много рекламы кредитов"
+  },
+  {
+    "review_id": "R003",
+    "platform": "RuStore",
+    "review_date": "2026-04-03",
+    "rating": 1,
+    "sentiment": "negative",
+    "issues": [
+      {
+        "category": "support",
+        "summary": "Поддержка отвечает шаблонами",
+        "quote": "Поддержка отвечает шаблонами",
+        "severity": 3
+      },
+      {
+        "category": "reliability",
+        "summary": "Двойное списание за подписку",
+        "quote": "Деньги списали дважды за подписку",
+        "severity": 5
+      },
+      {
+        "category": "support",
+        "summary": "Долгое ожидание ответа в чате",
+        "quote": "в чате два дня тишина",
+        "severity": 4
+      },
+      {
+        "category": "support",
+        "summary": "Долгое ожидание по телефону",
+        "quote": "по телефону ждать 27 минут",
+        "severity": 3
+      }
+    ],
+    "short_summary": "Поддержка не отвечает, двойное списание денег"
+  },
+  {
+    "review_id": "R004",
+    "platform": "Google Play",
+    "review_date": "2026-04-04",
+    "rating": 3,
+    "sentiment": "neutral",
+    "issues": [
+      {
+        "category": "design",
+        "summary": "Мелкий шрифт в истории операций",
+        "quote": "шрифт в истории операций мелкий и не меняется",
+        "severity": 3
+      },
+      {
+        "category": "reliability",
+        "summary": "Ошибки при оплате из-за мелкого шрифта",
+        "quote": "У родителей из-за этого постоянные ошибки при оплате",
+        "severity": 3
+      }
+    ],
+    "short_summary": "Мелкий шрифт в истории операций вызывает ошибки"
+  },
+  {
+    "review_id": "R005",
+    "platform": "App Store",
+    "review_date": "2026-04-05",
+    "rating": 5,
+    "sentiment": "positive",
+    "issues": [
+      {
+        "category": "design",
+        "summary": "Много анимаций при входе",
+        "quote": "Хотелось бы только меньше анимаций при входе",
+        "severity": 1
+      }
+    ],
+    "short_summary": "Быстрые переводы и удобный интерфейс, но много анимаций"
+  },
+  {
+    "review_id": "R006",
+    "platform": "Google Play",
+    "review_date": "2026-04-05",
+    "rating": 2,
+    "sentiment": "negative",
+    "issues": [
+      {
+        "category": "reliability",
+        "summary": "Вылетает при открытии раздела Платежи",
+        "quote": "раз в неделю вылетает при открытии \"Платежей\"",
+        "severity": 4
+      },
+      {
+        "category": "reliability",
+        "summary": "После вылета требуется повторный вход",
+        "quote": "После вылета приходится заново логиниться",
+        "severity": 4
+      }
+    ],
+    "short_summary": "Приложение вылетает при открытии Платежей"
+  },
+  {
+    "review_id": "R007",
+    "platform": "RuStore",
+    "review_date": "2026-04-06",
+    "rating": 3,
+    "sentiment": "neutral",
+    "issues": [
+      {
+        "category": "price",
+        "summary": "Высокие комиссии для ИП",
+        "quote": "для ИП комиссии высокие",
+        "severity": 3
+      },
+      {
+        "category": "price",
+        "summary": "Высокие комиссии за переводы юрлицам",
+        "quote": "За переводы юрлицам плачу больше, чем в другом банке",
+        "severity": 3
+      }
+    ],
+    "short_summary": "Высокие комиссии для ИП и переводов юрлицам"
+  },
+  {
+    "review_id": "R008",
+    "platform": "Google Play",
+    "review_date": "2026-04-06",
+    "rating": 2,
+    "sentiment": "negative",
+    "issues": [
+      {
+        "category": "performance",
+        "summary": "Тормозит вечером в пятницу в разделе Счета",
+        "quote": "Приложение тормозит вечером в пятницу, особенно раздел \"Счета\"",
+        "severity": 3
+      },
+      {
+        "category": "performance",
+        "summary": "Задержка обновления баланса",
+        "quote": "Иногда баланс обновляется с задержкой",
+        "severity": 3
+      }
+    ],
+    "short_summary": "Тормозит вечером в пятницу, задержка обновления баланса"
+  },
+  {
+    "review_id": "R009",
+    "platform": "App Store",
+    "review_date": "2026-04-07",
+    "rating": 4,
+    "sentiment": "neutral",
+    "issues": [
+      {
+        "category": "design",
+        "summary": "Интерфейс слишком яркий, не хватает режима минимум анимаций",
+        "quote": "Интерфейс красивый, но слишком яркий. Добавьте режим \"минимум анимаций\", чтобы быстрее делать переводы.",
+        "severity": 2
+      }
+    ],
+    "short_summary": "Пользователь просит добавить режим минимум анимаций для ускорения переводов"
+  },
+  {
+    "review_id": "R010",
+    "platform": "Google Play",
+    "review_date": "2026-04-07",
+    "rating": 1,
+    "sentiment": "negative",
+    "issues": [
+      {
+        "category": "ads",
+        "summary": "Рекламные предложения на весь экран после каждого входа",
+        "quote": "Рекламные предложения лезут на весь экран после каждого входа. Для банковского приложения это перебор.",
+        "severity": 4
+      }
+    ],
+    "short_summary": "Навязчивая реклама на весь экран после каждого входа"
+  },
+  {
+    "review_id": "R011",
+    "platform": "App Store",
+    "review_date": "2026-04-08",
+    "rating": 5,
+    "sentiment": "positive",
+    "issues": [],
+    "short_summary": "Стабильная работа, быстрые переводы и оплата ЖКХ"
+  },
+  {
+    "review_id": "R012",
+    "platform": "RuStore",
+    "review_date": "2026-04-08",
+    "rating": 2,
+    "sentiment": "negative",
+    "issues": [
+      {
+        "category": "support",
+        "summary": "Поддержка ответила через сутки и запросила те же документы повторно",
+        "quote": "В поддержку написал по оспариванию комиссии, ответили через сутки и попросили те же документы второй раз.",
+        "severity": 3
+      }
+    ],
+    "short_summary": "Медленная поддержка и повторный запрос документов"
+  },
+  {
+    "review_id": "R013",
+    "platform": "Google Play",
+    "review_date": "2026-04-09",
+    "rating": 3,
+    "sentiment": "neutral",
+    "issues": [
+      {
+        "category": "design",
+        "summary": "После обновления кнопка Повторить платеж спрятана глубже",
+        "quote": "Приложение в целом удобное, но после обновления кнопка \"Повторить платеж\" спрятана глубже, стало дольше.",
+        "severity": 2
+      }
+    ],
+    "short_summary": "Кнопка Повторить платеж стала менее доступной после обновления"
+  },
+  {
+    "review_id": "R014",
+    "platform": "App Store",
+    "review_date": "2026-04-09",
+    "rating": 2,
+    "sentiment": "negative",
+    "issues": [
+      {
+        "category": "reliability",
+        "summary": "Иногда не приходит пуш-код для подтверждения входа, приходится ждать до 10 минут",
+        "quote": "Иногда не приходит пуш-код для подтверждения входа. Без кода зайти невозможно, приходится ждать по 10 минут.",
+        "severity": 5
+      }
+    ],
+    "short_summary": "Проблемы с получением пуш-кода для входа"
+  },
+  {
+    "review_id": "R015",
+    "platform": "Google Play",
+    "review_date": "2026-04-10",
+    "rating": 4,
+    "sentiment": "positive",
+    "issues": [
+      {
+        "category": "ads",
+        "summary": "Подписку пытаются апгрейдить каждый месяц",
+        "quote": "Цена пакета приемлемая, но подписку пытаются апгрейдить каждый месяц.",
+        "severity": 2
+      }
+    ],
+    "short_summary": "Хорошая аналитика расходов, но навязчивые предложения апгрейда подписки"
+  },
+  {
+    "review_id": "R016",
+    "platform": "RuStore",
+    "review_date": "2026-04-10",
+    "rating": 1,
+    "sentiment": "negative",
+    "issues": [
+      {
+        "category": "reliability",
+        "summary": "Платеж дважды уходил в обработку на сутки, поддержка признала сбой без компенсации",
+        "quote": "Два раза подряд платеж ушел в обработку на сутки. Поддержка признала сбой, но компенсации никакой.",
+        "severity": 4
+      }
+    ],
+    "short_summary": "Платежи зависают на сутки, поддержка не компенсирует"
+  },
+  {
+    "review_id": "R017",
+    "platform": "App Store",
+    "review_date": "2026-04-11",
+    "rating": 3,
+    "sentiment": "negative",
+    "issues": [
+      {
+        "category": "design",
+        "summary": "Мелкий шрифт в деталях операций",
+        "quote": "В деталях операций всё очень мелко.",
+        "severity": 2
+      }
+    ],
+    "short_summary": "Проблема с размером шрифта в деталях операций"
+  },
+  {
+    "review_id": "R018",
+    "platform": "Google Play",
+    "review_date": "2026-04-11",
+    "rating": 2,
+    "sentiment": "negative",
+    "issues": [
+      {
+        "category": "ads",
+        "summary": "Навязчивая реклама страховки и кредита после входа",
+        "quote": "После входа постоянно показывают рекламу страховки и кредита.",
+        "severity": 3
+      }
+    ],
+    "short_summary": "Навязчивая реклама после входа"
+  },
+  {
+    "review_id": "R019",
+    "platform": "App Store",
+    "review_date": "2026-04-12",
+    "rating": 4,
+    "sentiment": "positive",
+    "issues": [],
+    "short_summary": "Удобная навигация и быстрая поддержка"
+  },
+  {
+    "review_id": "R020",
+    "platform": "Google Play",
+    "review_date": "2026-04-12",
+    "rating": 2,
+    "sentiment": "negative",
+    "issues": [
+      {
+        "category": "performance",
+        "summary": "Приложение тяжёлое, медленно грузится и ест батарею",
+        "quote": "На старом телефоне приложение тяжёлое, грузится медленно и ест батарею.",
+        "severity": 3
+      }
+    ],
+    "short_summary": "Проблемы с производительностью на старом телефоне"
+  },
+  {
+    "review_id": "R021",
+    "platform": "RuStore",
+    "review_date": "2026-04-13",
+    "rating": 3,
+    "sentiment": "negative",
+    "issues": [
+      {
+        "category": "price",
+        "summary": "Платные уведомления по карте при высокой стоимости обслуживания",
+        "quote": "платные уведомления по карте выглядят странно при такой стоимости обслуживания.",
+        "severity": 2
+      }
+    ],
+    "short_summary": "Странные платные уведомления"
+  },
+  {
+    "review_id": "R022",
+    "platform": "App Store",
+    "review_date": "2026-04-13",
+    "rating": 5,
+    "sentiment": "positive",
+    "issues": [],
+    "short_summary": "Отличное приложение, всё понятно и быстро"
+  },
+  {
+    "review_id": "R023",
+    "platform": "Google Play",
+    "review_date": "2026-04-14",
+    "rating": 1,
+    "sentiment": "negative",
+    "issues": [
+      {
+        "category": "reliability",
+        "summary": "Вылеты при оплате штрафа, риск повторного списания",
+        "quote": "Три раза вылетело при оплате штрафа. Боюсь повторять, вдруг спишет повторно.",
+        "severity": 5
+      }
+    ],
+    "short_summary": "Критические вылеты при оплате штрафа"
+  },
+  {
+    "review_id": "R024",
+    "platform": "App Store",
+    "review_date": "2026-04-14",
+    "rating": 3,
+    "sentiment": "negative",
+    "issues": [
+      {
+        "category": "ads",
+        "summary": "Слишком много баннеров и акций в разделе Инвестиции",
+        "quote": "в разделе \"Инвестиции\" слишком много баннеров и акций, отвлекает от основных действий.",
+        "severity": 2
+      }
+    ],
+    "short_summary": "Избыток рекламы в разделе Инвестиции"
+  },
+  {
+    "review_id": "R025",
+    "platform": "RuStore",
+    "review_date": "2026-04-15",
+    "rating": 2,
+    "sentiment": "negative",
+    "issues": [
+      {
+        "category": "support",
+        "summary": "Бот не понимает проблему, долгое ожидание оператора",
+        "quote": "сначала бот не понимает проблему, потом перевод на оператора еще 15 минут",
+        "severity": 3
+      }
+    ],
+    "short_summary": "Долгое ожидание в поддержке из-за неэффективного бота"
+  },
+  {
+    "review_id": "R026",
+    "platform": "Google Play",
+    "review_date": "2026-04-15",
+    "rating": 4,
+    "sentiment": "positive",
+    "issues": [
+      {
+        "category": "performance",
+        "summary": "Лаги при открытии выписок в конце месяца",
+        "quote": "в конце месяца заметны лаги при открытии выписок",
+        "severity": 2
+      }
+    ],
+    "short_summary": "В целом хорошо, но есть лаги в конце месяца"
+  },
+  {
+    "review_id": "R027",
+    "platform": "App Store",
+    "review_date": "2026-04-16",
+    "rating": 3,
+    "sentiment": "neutral",
+    "issues": [
+      {
+        "category": "price",
+        "summary": "Цена премиума выросла без новых функций",
+        "quote": "цена премиума выросла до 890, при этом новых функций почти нет",
+        "severity": 2
+      }
+    ],
+    "short_summary": "Неплохо, но цена премиума выросла без новых функций"
+  },
+  {
+    "review_id": "R028",
+    "platform": "Google Play",
+    "review_date": "2026-04-16",
+    "rating": 2,
+    "sentiment": "negative",
+    "issues": [
+      {
+        "category": "reliability",
+        "summary": "Приложение не открывалось почти час с ошибкой соединения",
+        "quote": "вчера приложение не открывалось почти час, показывало 'ошибка соединения'",
+        "severity": 5
+      }
+    ],
+    "short_summary": "Слабая надежность: приложение не работало час"
+  },
+  {
+    "review_id": "R029",
+    "platform": "RuStore",
+    "review_date": "2026-04-17",
+    "rating": 4,
+    "sentiment": "positive",
+    "issues": [
+      {
+        "category": "design",
+        "summary": "Не хватает быстрого перехода к частым платежам",
+        "quote": "Добавьте быстрый переход к частым платежам",
+        "severity": 1
+      }
+    ],
+    "short_summary": "Понравилась тёмная тема, но не хватает быстрого перехода к платежам"
+  },
+  {
+    "review_id": "R030",
+    "platform": "Google Play",
+    "review_date": "2026-04-17",
+    "rating": 1,
+    "sentiment": "negative",
+    "issues": [
+      {
+        "category": "support",
+        "summary": "Поддержка потеряла обращение по спорной операции",
+        "quote": "Служба поддержки потеряла обращение по спорной операции. Пришлось заводить заявку заново",
+        "severity": 4
+      }
+    ],
+    "short_summary": "Поддержка потеряла обращение по спорной операции"
+  },
+  {
+    "review_id": "R031",
+    "platform": "App Store",
+    "review_date": "2026-04-18",
+    "rating": 3,
+    "sentiment": "negative",
+    "issues": [
+      {
+        "category": "ads",
+        "summary": "Реклама кэшбэка закрывает нижнее меню",
+        "quote": "Реклама кэшбэка закрывает нижнее меню. Это раздражает и мешает быстро оплатить счет",
+        "severity": 3
+      }
+    ],
+    "short_summary": "Реклама кэшбэка мешает оплате"
+  },
+  {
+    "review_id": "R032",
+    "platform": "Google Play",
+    "review_date": "2026-04-18",
+    "rating": 2,
+    "sentiment": "negative",
+    "issues": [
+      {
+        "category": "reliability",
+        "summary": "Временная ошибка при переводе по номеру телефона",
+        "quote": "При переводе по номеру телефона иногда пишет 'временная ошибка', со второй попытки проходит",
+        "severity": 3
+      }
+    ],
+    "short_summary": "Временная ошибка при переводе по номеру телефона"
+  },
+  {
+    "review_id": "R033",
+    "platform": "RuStore",
+    "review_date": "2026-04-19",
+    "rating": 4,
+    "sentiment": "positive",
+    "issues": [],
+    "short_summary": "Приложение стало быстрее после мартовского патча, зависаний почти нет."
+  },
+  {
+    "review_id": "R034",
+    "platform": "App Store",
+    "review_date": "2026-04-19",
+    "rating": 2,
+    "sentiment": "negative",
+    "issues": [
+      {
+        "category": "price",
+        "summary": "Стоимость СМС-информирования выше, чем в других банках",
+        "quote": "Не устраивает стоимость СМС-информирования, в других банках это бесплатно.",
+        "severity": 3
+      }
+    ],
+    "short_summary": "Не устраивает стоимость СМС-информирования."
+  },
+  {
+    "review_id": "R035",
+    "platform": "Google Play",
+    "review_date": "2026-04-20",
+    "rating": 5,
+    "sentiment": "positive",
+    "issues": [
+      {
+        "category": "design",
+        "summary": "Не хватает гибких настроек главного экрана",
+        "quote": "Хотелось бы только больше гибких настроек главного экрана.",
+        "severity": 1
+      }
+    ],
+    "short_summary": "Всё удобно и стабильно, но не хватает гибких настроек главного экрана."
+  },
+  {
+    "review_id": "R036",
+    "platform": "App Store",
+    "review_date": "2026-04-20",
+    "rating": 1,
+    "sentiment": "negative",
+    "issues": [
+      {
+        "category": "reliability",
+        "summary": "После обновления авторизация постоянно сбрасывается",
+        "quote": "После обновления авторизация постоянно сбрасывается, каждый раз нужно вводить пароль и код.",
+        "severity": 5
+      }
+    ],
+    "short_summary": "После обновления авторизация постоянно сбрасывается."
+  }
+]
