@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "type": "прямой",
+    "question": "Кто жаловался на push-уведомления в банковских приложениях?",
+    "gold_sources": ["doc_01_olymp_anna", "doc_05_tinkoff_alex"]
+  },
+  {
+    "id": 2,
+    "type": "синоним",
+    "question": "У кого приложение банка тормозит или долго загружается?",
+    "gold_sources": ["doc_02_olymp_sergey", "doc_05_tinkoff_alex"]
+  },
+  {
+    "id": 3,
+    "type": "точный артикул",
+    "question": "Кто упомянул тариф «Корпоратив-премиум»?",
+    "gold_sources": ["doc_05_tinkoff_alex", "doc_08_tinkoff_pavel"]
+  },
+  {
+    "id": 4,
+    "type": "multi-hop",
+    "question": "Кто одновременно жаловался и на высокую цену уроков, и на проблемы с видеосвязью?",
+    "gold_sources": ["doc_09_brightword_dmitry"]
+  },
+  {
+    "id": 5,
+    "type": "точный артикул",
+    "question": "Кто упоминал ФЗ-152?",
+    "gold_sources": ["doc_06_tinkoff_maria"]
+  },
+  {
+    "id": 6,
+    "type": "синоним",
+    "question": "Кто был недоволен устаревшим или неудобным интерфейсом?",
+    "gold_sources": ["doc_03_olymp_igor", "doc_10_brightword_polina"]
+  },
+  {
+    "id": 7,
+    "type": "позитив",
+    "question": "Кто хвалил поддержку банка?",
+    "gold_sources": ["doc_07_tinkoff_kirill", "doc_08_tinkoff_pavel"]
+  },
+  {
+    "id": 8,
+    "type": "перефраз",
+    "question": "У кого были технические проблемы с переводом или оплатой?",
+    "gold_sources": ["doc_03_olymp_igor", "doc_04_olymp_maksim", "doc_10_brightword_polina"]
+  },
+  {
+    "id": 9,
+    "type": "multi-hop",
+    "question": "Кто пользуется одновременно Т-Банком и банком «Олимп»?",
+    "gold_sources": ["doc_01_olymp_anna", "doc_05_tinkoff_alex"]
+  },
+  {
+    "id": 10,
+    "type": "точный артикул",
+    "question": "Кто упомянул СБП?",
+    "gold_sources": ["doc_01_olymp_anna", "doc_04_olymp_maksim", "doc_07_tinkoff_kirill"]
+  },
+  {
+    "id": 11,
+    "type": "прямой",
+    "question": "Кто говорил о зависших или задержанных переводах?",
+    "gold_sources": ["doc_03_olymp_igor"]
+  },
+  {
+    "id": 12,
+    "type": "перефраз",
+    "question": "Кто отмечал хороший кэшбэк на продукты?",
+    "gold_sources": ["doc_04_olymp_maksim"]
+  }
+]

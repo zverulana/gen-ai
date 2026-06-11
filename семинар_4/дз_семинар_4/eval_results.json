@@ -1,0 +1,588 @@
+{
+  "fixed": {
+    "strategy": "fixed",
+    "mean": 0.6805555555555557,
+    "total": 8.166666666666668,
+    "results": [
+      {
+        "id": 1,
+        "type": "прямой",
+        "question": "Кто жаловался на push-уведомления в банковских приложениях?",
+        "score": 0.5,
+        "gold": [
+          "doc_01_olymp_anna",
+          "doc_05_tinkoff_alex"
+        ],
+        "retrieved_ids": [
+          "doc_07_tinkoff_kirill__1",
+          "doc_02_olymp_sergey__1",
+          "doc_01_olymp_anna__1",
+          "doc_08_tinkoff_pavel__0",
+          "doc_06_tinkoff_maria__0"
+        ],
+        "retrieved_sources": [
+          "doc_07_tinkoff_kirill",
+          "doc_02_olymp_sergey",
+          "doc_01_olymp_anna",
+          "doc_08_tinkoff_pavel",
+          "doc_06_tinkoff_maria"
+        ]
+      },
+      {
+        "id": 2,
+        "type": "синоним",
+        "question": "У кого приложение банка тормозит или долго загружается?",
+        "score": 1.0,
+        "gold": [
+          "doc_02_olymp_sergey",
+          "doc_05_tinkoff_alex"
+        ],
+        "retrieved_ids": [
+          "doc_02_olymp_sergey__1",
+          "doc_07_tinkoff_kirill__1",
+          "doc_05_tinkoff_alex__1",
+          "doc_08_tinkoff_pavel__1",
+          "doc_05_tinkoff_alex__0"
+        ],
+        "retrieved_sources": [
+          "doc_02_olymp_sergey",
+          "doc_07_tinkoff_kirill",
+          "doc_05_tinkoff_alex",
+          "doc_08_tinkoff_pavel",
+          "doc_05_tinkoff_alex"
+        ]
+      },
+      {
+        "id": 3,
+        "type": "точный артикул",
+        "question": "Кто упомянул тариф «Корпоратив-премиум»?",
+        "score": 1.0,
+        "gold": [
+          "doc_05_tinkoff_alex",
+          "doc_08_tinkoff_pavel"
+        ],
+        "retrieved_ids": [
+          "doc_05_tinkoff_alex__1",
+          "doc_03_olymp_igor__1",
+          "doc_03_olymp_igor__0",
+          "doc_04_olymp_maksim__1",
+          "doc_08_tinkoff_pavel__0"
+        ],
+        "retrieved_sources": [
+          "doc_05_tinkoff_alex",
+          "doc_03_olymp_igor",
+          "doc_03_olymp_igor",
+          "doc_04_olymp_maksim",
+          "doc_08_tinkoff_pavel"
+        ]
+      },
+      {
+        "id": 4,
+        "type": "multi-hop",
+        "question": "Кто одновременно жаловался и на высокую цену уроков, и на проблемы с видеосвязью?",
+        "score": 1.0,
+        "gold": [
+          "doc_09_brightword_dmitry"
+        ],
+        "retrieved_ids": [
+          "doc_04_olymp_maksim__1",
+          "doc_10_brightword_polina__1",
+          "doc_09_brightword_dmitry__1",
+          "doc_01_olymp_anna__1",
+          "doc_09_brightword_dmitry__0"
+        ],
+        "retrieved_sources": [
+          "doc_04_olymp_maksim",
+          "doc_10_brightword_polina",
+          "doc_09_brightword_dmitry",
+          "doc_01_olymp_anna",
+          "doc_09_brightword_dmitry"
+        ]
+      },
+      {
+        "id": 5,
+        "type": "точный артикул",
+        "question": "Кто упоминал ФЗ-152?",
+        "score": 1.0,
+        "gold": [
+          "doc_06_tinkoff_maria"
+        ],
+        "retrieved_ids": [
+          "doc_06_tinkoff_maria__1",
+          "doc_08_tinkoff_pavel__0",
+          "doc_02_olymp_sergey__0",
+          "doc_06_tinkoff_maria__0",
+          "doc_03_olymp_igor__0"
+        ],
+        "retrieved_sources": [
+          "doc_06_tinkoff_maria",
+          "doc_08_tinkoff_pavel",
+          "doc_02_olymp_sergey",
+          "doc_06_tinkoff_maria",
+          "doc_03_olymp_igor"
+        ]
+      },
+      {
+        "id": 6,
+        "type": "синоним",
+        "question": "Кто был недоволен устаревшим или неудобным интерфейсом?",
+        "score": 0.0,
+        "gold": [
+          "doc_03_olymp_igor",
+          "doc_10_brightword_polina"
+        ],
+        "retrieved_ids": [
+          "doc_08_tinkoff_pavel__1",
+          "doc_05_tinkoff_alex__1",
+          "doc_02_olymp_sergey__1",
+          "doc_01_olymp_anna__1",
+          "doc_09_brightword_dmitry__1"
+        ],
+        "retrieved_sources": [
+          "doc_08_tinkoff_pavel",
+          "doc_05_tinkoff_alex",
+          "doc_02_olymp_sergey",
+          "doc_01_olymp_anna",
+          "doc_09_brightword_dmitry"
+        ]
+      },
+      {
+        "id": 7,
+        "type": "позитив",
+        "question": "Кто хвалил поддержку банка?",
+        "score": 0.5,
+        "gold": [
+          "doc_07_tinkoff_kirill",
+          "doc_08_tinkoff_pavel"
+        ],
+        "retrieved_ids": [
+          "doc_08_tinkoff_pavel__0",
+          "doc_05_tinkoff_alex__1",
+          "doc_06_tinkoff_maria__0",
+          "doc_04_olymp_maksim__1",
+          "doc_02_olymp_sergey__0"
+        ],
+        "retrieved_sources": [
+          "doc_08_tinkoff_pavel",
+          "doc_05_tinkoff_alex",
+          "doc_06_tinkoff_maria",
+          "doc_04_olymp_maksim",
+          "doc_02_olymp_sergey"
+        ]
+      },
+      {
+        "id": 8,
+        "type": "перефраз",
+        "question": "У кого были технические проблемы с переводом или оплатой?",
+        "score": 0.6666666666666666,
+        "gold": [
+          "doc_03_olymp_igor",
+          "doc_04_olymp_maksim",
+          "doc_10_brightword_polina"
+        ],
+        "retrieved_ids": [
+          "doc_10_brightword_polina__1",
+          "doc_03_olymp_igor__1",
+          "doc_08_tinkoff_pavel__1",
+          "doc_06_tinkoff_maria__0",
+          "doc_01_olymp_anna__0"
+        ],
+        "retrieved_sources": [
+          "doc_10_brightword_polina",
+          "doc_03_olymp_igor",
+          "doc_08_tinkoff_pavel",
+          "doc_06_tinkoff_maria",
+          "doc_01_olymp_anna"
+        ]
+      },
+      {
+        "id": 9,
+        "type": "multi-hop",
+        "question": "Кто пользуется одновременно Т-Банком и банком «Олимп»?",
+        "score": 0.5,
+        "gold": [
+          "doc_01_olymp_anna",
+          "doc_05_tinkoff_alex"
+        ],
+        "retrieved_ids": [
+          "doc_05_tinkoff_alex__1",
+          "doc_08_tinkoff_pavel__0",
+          "doc_05_tinkoff_alex__0",
+          "doc_06_tinkoff_maria__0",
+          "doc_07_tinkoff_kirill__1"
+        ],
+        "retrieved_sources": [
+          "doc_05_tinkoff_alex",
+          "doc_08_tinkoff_pavel",
+          "doc_05_tinkoff_alex",
+          "doc_06_tinkoff_maria",
+          "doc_07_tinkoff_kirill"
+        ]
+      },
+      {
+        "id": 10,
+        "type": "точный артикул",
+        "question": "Кто упомянул СБП?",
+        "score": 0.0,
+        "gold": [
+          "doc_01_olymp_anna",
+          "doc_04_olymp_maksim",
+          "doc_07_tinkoff_kirill"
+        ],
+        "retrieved_ids": [
+          "doc_02_olymp_sergey__0",
+          "doc_03_olymp_igor__1",
+          "doc_03_olymp_igor__0",
+          "doc_06_tinkoff_maria__1",
+          "doc_08_tinkoff_pavel__0"
+        ],
+        "retrieved_sources": [
+          "doc_02_olymp_sergey",
+          "doc_03_olymp_igor",
+          "doc_03_olymp_igor",
+          "doc_06_tinkoff_maria",
+          "doc_08_tinkoff_pavel"
+        ]
+      },
+      {
+        "id": 11,
+        "type": "прямой",
+        "question": "Кто говорил о зависших или задержанных переводах?",
+        "score": 1.0,
+        "gold": [
+          "doc_03_olymp_igor"
+        ],
+        "retrieved_ids": [
+          "doc_10_brightword_polina__1",
+          "doc_03_olymp_igor__1",
+          "doc_06_tinkoff_maria__1",
+          "doc_09_brightword_dmitry__1",
+          "doc_06_tinkoff_maria__0"
+        ],
+        "retrieved_sources": [
+          "doc_10_brightword_polina",
+          "doc_03_olymp_igor",
+          "doc_06_tinkoff_maria",
+          "doc_09_brightword_dmitry",
+          "doc_06_tinkoff_maria"
+        ]
+      },
+      {
+        "id": 12,
+        "type": "перефраз",
+        "question": "Кто отмечал хороший кэшбэк на продукты?",
+        "score": 1.0,
+        "gold": [
+          "doc_04_olymp_maksim"
+        ],
+        "retrieved_ids": [
+          "doc_04_olymp_maksim__1",
+          "doc_04_olymp_maksim__0",
+          "doc_07_tinkoff_kirill__1",
+          "doc_01_olymp_anna__1",
+          "doc_03_olymp_igor__1"
+        ],
+        "retrieved_sources": [
+          "doc_04_olymp_maksim",
+          "doc_04_olymp_maksim",
+          "doc_07_tinkoff_kirill",
+          "doc_01_olymp_anna",
+          "doc_03_olymp_igor"
+        ]
+      }
+    ]
+  },
+  "recursive": {
+    "strategy": "recursive",
+    "mean": 0.875,
+    "total": 10.5,
+    "results": [
+      {
+        "id": 1,
+        "type": "прямой",
+        "question": "Кто жаловался на push-уведомления в банковских приложениях?",
+        "score": 1.0,
+        "gold": [
+          "doc_01_olymp_anna",
+          "doc_05_tinkoff_alex"
+        ],
+        "retrieved_ids": [
+          "doc_01_olymp_anna__10",
+          "doc_05_tinkoff_alex__5",
+          "doc_01_olymp_anna__4",
+          "doc_06_tinkoff_maria__3",
+          "doc_08_tinkoff_pavel__10"
+        ],
+        "retrieved_sources": [
+          "doc_01_olymp_anna",
+          "doc_05_tinkoff_alex",
+          "doc_01_olymp_anna",
+          "doc_06_tinkoff_maria",
+          "doc_08_tinkoff_pavel"
+        ]
+      },
+      {
+        "id": 2,
+        "type": "синоним",
+        "question": "У кого приложение банка тормозит или долго загружается?",
+        "score": 1.0,
+        "gold": [
+          "doc_02_olymp_sergey",
+          "doc_05_tinkoff_alex"
+        ],
+        "retrieved_ids": [
+          "doc_07_tinkoff_kirill__1",
+          "doc_08_tinkoff_pavel__3",
+          "doc_02_olymp_sergey__7",
+          "doc_05_tinkoff_alex__4",
+          "doc_05_tinkoff_alex__5"
+        ],
+        "retrieved_sources": [
+          "doc_07_tinkoff_kirill",
+          "doc_08_tinkoff_pavel",
+          "doc_02_olymp_sergey",
+          "doc_05_tinkoff_alex",
+          "doc_05_tinkoff_alex"
+        ]
+      },
+      {
+        "id": 3,
+        "type": "точный артикул",
+        "question": "Кто упомянул тариф «Корпоратив-премиум»?",
+        "score": 1.0,
+        "gold": [
+          "doc_05_tinkoff_alex",
+          "doc_08_tinkoff_pavel"
+        ],
+        "retrieved_ids": [
+          "doc_05_tinkoff_alex__9",
+          "doc_01_olymp_anna__7",
+          "doc_05_tinkoff_alex__2",
+          "doc_08_tinkoff_pavel__10",
+          "doc_07_tinkoff_kirill__5"
+        ],
+        "retrieved_sources": [
+          "doc_05_tinkoff_alex",
+          "doc_01_olymp_anna",
+          "doc_05_tinkoff_alex",
+          "doc_08_tinkoff_pavel",
+          "doc_07_tinkoff_kirill"
+        ]
+      },
+      {
+        "id": 4,
+        "type": "multi-hop",
+        "question": "Кто одновременно жаловался и на высокую цену уроков, и на проблемы с видеосвязью?",
+        "score": 1.0,
+        "gold": [
+          "doc_09_brightword_dmitry"
+        ],
+        "retrieved_ids": [
+          "doc_09_brightword_dmitry__3",
+          "doc_09_brightword_dmitry__6",
+          "doc_09_brightword_dmitry__5",
+          "doc_10_brightword_polina__4",
+          "doc_09_brightword_dmitry__9"
+        ],
+        "retrieved_sources": [
+          "doc_09_brightword_dmitry",
+          "doc_09_brightword_dmitry",
+          "doc_09_brightword_dmitry",
+          "doc_10_brightword_polina",
+          "doc_09_brightword_dmitry"
+        ]
+      },
+      {
+        "id": 5,
+        "type": "точный артикул",
+        "question": "Кто упоминал ФЗ-152?",
+        "score": 1.0,
+        "gold": [
+          "doc_06_tinkoff_maria"
+        ],
+        "retrieved_ids": [
+          "doc_06_tinkoff_maria__2",
+          "doc_06_tinkoff_maria__3",
+          "doc_06_tinkoff_maria__9",
+          "doc_05_tinkoff_alex__5",
+          "doc_08_tinkoff_pavel__10"
+        ],
+        "retrieved_sources": [
+          "doc_06_tinkoff_maria",
+          "doc_06_tinkoff_maria",
+          "doc_06_tinkoff_maria",
+          "doc_05_tinkoff_alex",
+          "doc_08_tinkoff_pavel"
+        ]
+      },
+      {
+        "id": 6,
+        "type": "синоним",
+        "question": "Кто был недоволен устаревшим или неудобным интерфейсом?",
+        "score": 1.0,
+        "gold": [
+          "doc_03_olymp_igor",
+          "doc_10_brightword_polina"
+        ],
+        "retrieved_ids": [
+          "doc_10_brightword_polina__5",
+          "doc_03_olymp_igor__10",
+          "doc_07_tinkoff_kirill__6",
+          "doc_03_olymp_igor__5",
+          "doc_04_olymp_maksim__2"
+        ],
+        "retrieved_sources": [
+          "doc_10_brightword_polina",
+          "doc_03_olymp_igor",
+          "doc_07_tinkoff_kirill",
+          "doc_03_olymp_igor",
+          "doc_04_olymp_maksim"
+        ]
+      },
+      {
+        "id": 7,
+        "type": "позитив",
+        "question": "Кто хвалил поддержку банка?",
+        "score": 1.0,
+        "gold": [
+          "doc_07_tinkoff_kirill",
+          "doc_08_tinkoff_pavel"
+        ],
+        "retrieved_ids": [
+          "doc_08_tinkoff_pavel__10",
+          "doc_01_olymp_anna__11",
+          "doc_07_tinkoff_kirill__11",
+          "doc_05_tinkoff_alex__5",
+          "doc_08_tinkoff_pavel__6"
+        ],
+        "retrieved_sources": [
+          "doc_08_tinkoff_pavel",
+          "doc_01_olymp_anna",
+          "doc_07_tinkoff_kirill",
+          "doc_05_tinkoff_alex",
+          "doc_08_tinkoff_pavel"
+        ]
+      },
+      {
+        "id": 8,
+        "type": "перефраз",
+        "question": "У кого были технические проблемы с переводом или оплатой?",
+        "score": 0.3333333333333333,
+        "gold": [
+          "doc_03_olymp_igor",
+          "doc_04_olymp_maksim",
+          "doc_10_brightword_polina"
+        ],
+        "retrieved_ids": [
+          "doc_03_olymp_igor__7",
+          "doc_05_tinkoff_alex__8",
+          "doc_03_olymp_igor__6",
+          "doc_02_olymp_sergey__9",
+          "doc_03_olymp_igor__2"
+        ],
+        "retrieved_sources": [
+          "doc_03_olymp_igor",
+          "doc_05_tinkoff_alex",
+          "doc_03_olymp_igor",
+          "doc_02_olymp_sergey",
+          "doc_03_olymp_igor"
+        ]
+      },
+      {
+        "id": 9,
+        "type": "multi-hop",
+        "question": "Кто пользуется одновременно Т-Банком и банком «Олимп»?",
+        "score": 0.5,
+        "gold": [
+          "doc_01_olymp_anna",
+          "doc_05_tinkoff_alex"
+        ],
+        "retrieved_ids": [
+          "doc_05_tinkoff_alex__7",
+          "doc_08_tinkoff_pavel__10",
+          "doc_04_olymp_maksim__9",
+          "doc_08_tinkoff_pavel__6",
+          "doc_07_tinkoff_kirill__7"
+        ],
+        "retrieved_sources": [
+          "doc_05_tinkoff_alex",
+          "doc_08_tinkoff_pavel",
+          "doc_04_olymp_maksim",
+          "doc_08_tinkoff_pavel",
+          "doc_07_tinkoff_kirill"
+        ]
+      },
+      {
+        "id": 10,
+        "type": "точный артикул",
+        "question": "Кто упомянул СБП?",
+        "score": 0.6666666666666666,
+        "gold": [
+          "doc_01_olymp_anna",
+          "doc_04_olymp_maksim",
+          "doc_07_tinkoff_kirill"
+        ],
+        "retrieved_ids": [
+          "doc_03_olymp_igor__7",
+          "doc_03_olymp_igor__9",
+          "doc_04_olymp_maksim__8",
+          "doc_07_tinkoff_kirill__9",
+          "doc_03_olymp_igor__0"
+        ],
+        "retrieved_sources": [
+          "doc_03_olymp_igor",
+          "doc_03_olymp_igor",
+          "doc_04_olymp_maksim",
+          "doc_07_tinkoff_kirill",
+          "doc_03_olymp_igor"
+        ]
+      },
+      {
+        "id": 11,
+        "type": "прямой",
+        "question": "Кто говорил о зависших или задержанных переводах?",
+        "score": 1.0,
+        "gold": [
+          "doc_03_olymp_igor"
+        ],
+        "retrieved_ids": [
+          "doc_03_olymp_igor__7",
+          "doc_03_olymp_igor__9",
+          "doc_03_olymp_igor__6",
+          "doc_10_brightword_polina__3",
+          "doc_03_olymp_igor__10"
+        ],
+        "retrieved_sources": [
+          "doc_03_olymp_igor",
+          "doc_03_olymp_igor",
+          "doc_03_olymp_igor",
+          "doc_10_brightword_polina",
+          "doc_03_olymp_igor"
+        ]
+      },
+      {
+        "id": 12,
+        "type": "перефраз",
+        "question": "Кто отмечал хороший кэшбэк на продукты?",
+        "score": 1.0,
+        "gold": [
+          "doc_04_olymp_maksim"
+        ],
+        "retrieved_ids": [
+          "doc_04_olymp_maksim__8",
+          "doc_04_olymp_maksim__10",
+          "doc_04_olymp_maksim__12",
+          "doc_04_olymp_maksim__0",
+          "doc_07_tinkoff_kirill__9"
+        ],
+        "retrieved_sources": [
+          "doc_04_olymp_maksim",
+          "doc_04_olymp_maksim",
+          "doc_04_olymp_maksim",
+          "doc_04_olymp_maksim",
+          "doc_07_tinkoff_kirill"
+        ]
+      }
+    ]
+  }
+}

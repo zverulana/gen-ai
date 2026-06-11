@@ -12,3 +12,6 @@ wheels/
 
 # env
 .env
+
+# RAG local index
+chroma_db/
