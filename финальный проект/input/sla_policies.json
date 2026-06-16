@@ -1,0 +1,22 @@
+{
+  "Low": {
+    "first_response_hours": 24,
+    "resolution_hours": 72,
+    "escalation_threshold": 96
+  },
+  "Medium": {
+    "first_response_hours": 12,
+    "resolution_hours": 48,
+    "escalation_threshold": 60
+  },
+  "High": {
+    "first_response_hours": 4,
+    "resolution_hours": 24,
+    "escalation_threshold": 36
+  },
+  "Urgent": {
+    "first_response_hours": 1,
+    "resolution_hours": 8,
+    "escalation_threshold": 12
+  }
+}

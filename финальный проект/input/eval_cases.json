@@ -1,0 +1,334 @@
+[
+  {
+    "id": 1,
+    "ticket_id": 135443,
+    "subject": "Account Suspension: Billing System",
+    "issue_description": "The payment was deducted from my bank account but the transaction shows failed.",
+    "product": "Billing System",
+    "channel": "Chat",
+    "customer_segment": "Individual",
+    "subscription_type": "Enterprise",
+    "expected_category": "Account Suspension",
+    "expected_priority_min": "Medium",
+    "expected_tools": [
+      "search_similar_tickets",
+      "lookup_sla_policy"
+    ],
+    "gold_resolution_theme": "The issue was escalated to engineering and resolved in the latest patch.",
+    "comment": "Hold-out тикет категории Account Suspension"
+  },
+  {
+    "id": 2,
+    "ticket_id": 151545,
+    "subject": "Bug Report: E-commerce Store",
+    "issue_description": "The application crashes whenever I try to upload a file.",
+    "product": "E-commerce Store",
+    "channel": "Email",
+    "customer_segment": "Corporate",
+    "subscription_type": "Premium",
+    "expected_category": "Bug Report",
+    "expected_priority_min": "Low",
+    "expected_tools": [
+      "search_similar_tickets",
+      "lookup_sla_policy"
+    ],
+    "gold_resolution_theme": "Payment gateway timeout issue fixed and monitoring implemented.",
+    "comment": "Hold-out тикет категории Bug Report"
+  },
+  {
+    "id": 3,
+    "ticket_id": 162564,
+    "subject": "Data Sync Issue: Billing System",
+    "issue_description": "The system is not syncing data across devices properly.",
+    "product": "Billing System",
+    "channel": "Email",
+    "customer_segment": "Corporate",
+    "subscription_type": "Premium",
+    "expected_category": "Data Sync Issue",
+    "expected_priority_min": "Low",
+    "expected_tools": [
+      "search_similar_tickets",
+      "lookup_sla_policy"
+    ],
+    "gold_resolution_theme": "The duplicate charge was reversed and refund processed within 3-5 business days.",
+    "comment": "Hold-out тикет категории Data Sync Issue"
+  },
+  {
+    "id": 4,
+    "ticket_id": 73161,
+    "subject": "Feature Request: CRM Platform",
+    "issue_description": "My subscription was cancelled without my request and I need clarification.",
+    "product": "CRM Platform",
+    "channel": "Phone",
+    "customer_segment": "Small Business",
+    "subscription_type": "Premium",
+    "expected_category": "Feature Request",
+    "expected_priority_min": "Low",
+    "expected_tools": [
+      "search_similar_tickets",
+      "lookup_sla_policy"
+    ],
+    "gold_resolution_theme": "The duplicate charge was reversed and refund processed within 3-5 business days.",
+    "comment": "Hold-out тикет категории Feature Request"
+  },
+  {
+    "id": 5,
+    "ticket_id": 113679,
+    "subject": "Login Issue: Analytics Dashboard",
+    "issue_description": "I am unable to access my account after entering the correct credentials.",
+    "product": "Analytics Dashboard",
+    "channel": "Chat",
+    "customer_segment": "Corporate",
+    "subscription_type": "Enterprise",
+    "expected_category": "Login Issue",
+    "expected_priority_min": "Low",
+    "expected_tools": [
+      "search_similar_tickets",
+      "lookup_sla_policy"
+    ],
+    "gold_resolution_theme": "The duplicate charge was reversed and refund processed within 3-5 business days.",
+    "comment": "Hold-out тикет категории Login Issue"
+  },
+  {
+    "id": 6,
+    "ticket_id": 26820,
+    "subject": "Payment Problem: CRM Platform",
+    "issue_description": "I would like to request a refund for the recent charge.",
+    "product": "CRM Platform",
+    "channel": "Web Form",
+    "customer_segment": "Individual",
+    "subscription_type": "Free",
+    "expected_category": "Payment Problem",
+    "expected_priority_min": "Medium",
+    "expected_tools": [
+      "search_similar_tickets",
+      "lookup_sla_policy"
+    ],
+    "gold_resolution_theme": "The issue was escalated to engineering and resolved in the latest patch.",
+    "comment": "Hold-out тикет категории Payment Problem"
+  },
+  {
+    "id": 7,
+    "ticket_id": 95506,
+    "subject": "Performance Issue: E-commerce Store",
+    "issue_description": "I am experiencing very slow performance while using the dashboard.",
+    "product": "E-commerce Store",
+    "channel": "Chat",
+    "customer_segment": "Small Business",
+    "subscription_type": "Free",
+    "expected_category": "Performance Issue",
+    "expected_priority_min": "Low",
+    "expected_tools": [
+      "search_similar_tickets",
+      "lookup_sla_policy"
+    ],
+    "gold_resolution_theme": "Bug logged internally and workaround shared with the customer.",
+    "comment": "Hold-out тикет категории Performance Issue"
+  },
+  {
+    "id": 8,
+    "ticket_id": 199859,
+    "subject": "Refund Request: Cloud Storage",
+    "issue_description": "I would like to request a refund for the recent charge.",
+    "product": "Cloud Storage",
+    "channel": "Web Form",
+    "customer_segment": "Individual",
+    "subscription_type": "Enterprise",
+    "expected_category": "Refund Request",
+    "expected_priority_min": "Medium",
+    "expected_tools": [
+      "search_similar_tickets",
+      "lookup_sla_policy"
+    ],
+    "gold_resolution_theme": "Subscription status corrected and confirmation email sent to customer.",
+    "comment": "Hold-out тикет категории Refund Request"
+  },
+  {
+    "id": 9,
+    "ticket_id": 72348,
+    "subject": "Security Concern: CRM Platform",
+    "issue_description": "I found a bug in the latest update affecting report generation.",
+    "product": "CRM Platform",
+    "channel": "Phone",
+    "customer_segment": "Small Business",
+    "subscription_type": "Enterprise",
+    "expected_category": "Security Concern",
+    "expected_priority_min": "High",
+    "expected_tools": [
+      "search_similar_tickets",
+      "lookup_sla_policy"
+    ],
+    "gold_resolution_theme": "Bug logged internally and workaround shared with the customer.",
+    "comment": "Hold-out тикет категории Security Concern"
+  },
+  {
+    "id": 10,
+    "ticket_id": 102555,
+    "subject": "Subscription Cancellation: Mobile App",
+    "issue_description": "My subscription was cancelled without my request and I need clarification.",
+    "product": "Mobile App",
+    "channel": "Web Form",
+    "customer_segment": "Small Business",
+    "subscription_type": "Enterprise",
+    "expected_category": "Subscription Cancellation",
+    "expected_priority_min": "Low",
+    "expected_tools": [
+      "search_similar_tickets",
+      "lookup_sla_policy"
+    ],
+    "gold_resolution_theme": "Provided step-by-step troubleshooting instructions and issue resolved.",
+    "comment": "Hold-out тикет категории Subscription Cancellation"
+  },
+  {
+    "id": 11,
+    "ticket_id": null,
+    "subject": "Unauthorized charge on premium subscription",
+    "issue_description": "I was charged $49.99 twice this month for Premium. I only have one account and this looks fraudulent. Please reverse immediately.",
+    "product": "Web Portal",
+    "channel": "Email",
+    "customer_segment": "Enterprise",
+    "subscription_type": "Premium",
+    "expected_category": "Payment Problem",
+    "expected_priority_min": "High",
+    "expected_tools": [
+      "search_similar_tickets",
+      "lookup_sla_policy"
+    ],
+    "gold_resolution_theme": "duplicate charge refund verification",
+    "comment": "Синтетический кейс: двойное списание",
+    "synthetic": true
+  },
+  {
+    "id": 12,
+    "ticket_id": null,
+    "subject": "App crashes after login on iOS 18",
+    "issue_description": "After the latest update the mobile app closes immediately after I enter OTP. Reinstall did not help. Device: iPhone 15, iOS 18.1.",
+    "product": "Mobile App",
+    "channel": "Chat",
+    "customer_segment": "Consumer",
+    "subscription_type": "Free",
+    "expected_category": "Bug Report",
+    "expected_priority_min": "Medium",
+    "expected_tools": [
+      "search_similar_tickets",
+      "lookup_sla_policy"
+    ],
+    "gold_resolution_theme": "crash troubleshooting steps",
+    "comment": "Синтетический кейс: краш после логина",
+    "synthetic": true
+  },
+  {
+    "id": 13,
+    "ticket_id": null,
+    "subject": "Request: export all customer data to CSV",
+    "issue_description": "We need a bulk export of usage metrics for compliance audit. Is there an API endpoint or admin panel feature for this?",
+    "product": "API Gateway",
+    "channel": "Email",
+    "customer_segment": "Enterprise",
+    "subscription_type": "Enterprise",
+    "expected_category": "Feature Request",
+    "expected_priority_min": "Low",
+    "expected_tools": [
+      "search_similar_tickets",
+      "lookup_sla_policy"
+    ],
+    "gold_resolution_theme": "feature request logged roadmap",
+    "comment": "Синтетический кейс: feature request",
+    "synthetic": true
+  },
+  {
+    "id": 14,
+    "ticket_id": null,
+    "subject": "Suspicious login from another country",
+    "issue_description": "I received alerts about logins from Brazil while I am in Germany. Please lock the account and review access logs.",
+    "product": "Web Portal",
+    "channel": "Phone",
+    "customer_segment": "Small Business",
+    "subscription_type": "Premium",
+    "expected_category": "Security Concern",
+    "expected_priority_min": "Urgent",
+    "expected_tools": [
+      "search_similar_tickets",
+      "lookup_sla_policy"
+    ],
+    "gold_resolution_theme": "account lock security review",
+    "comment": "Синтетический кейс: безопасность",
+    "synthetic": true
+  },
+  {
+    "id": 15,
+    "ticket_id": null,
+    "subject": "Cancel annual plan and prorated refund",
+    "issue_description": "I want to cancel my annual Enterprise plan effective today. What is the prorated refund amount for unused months?",
+    "product": "Web Portal",
+    "channel": "Email",
+    "customer_segment": "Enterprise",
+    "subscription_type": "Enterprise",
+    "expected_category": "Subscription Cancellation",
+    "expected_priority_min": "Medium",
+    "expected_tools": [
+      "search_similar_tickets",
+      "lookup_sla_policy"
+    ],
+    "gold_resolution_theme": "cancellation prorated refund policy",
+    "comment": "Синтетический кейс: отмена подписки",
+    "synthetic": true
+  },
+  {
+    "id": 16,
+    "ticket_id": null,
+    "subject": "Dashboard loads 40 seconds, timeouts",
+    "issue_description": "Since yesterday the analytics dashboard takes 40+ seconds and often times out. Other pages work fine. Region: EU.",
+    "product": "Analytics Dashboard",
+    "channel": "Chat",
+    "customer_segment": "Small Business",
+    "subscription_type": "Premium",
+    "expected_category": "Performance Issue",
+    "expected_priority_min": "High",
+    "expected_tools": [
+      "search_similar_tickets",
+      "lookup_sla_policy"
+    ],
+    "gold_resolution_theme": "performance degradation investigation",
+    "comment": "Синтетический кейс: деградация производительности",
+    "synthetic": true
+  },
+  {
+    "id": 17,
+    "ticket_id": null,
+    "subject": "Cannot reset password, email not arriving",
+    "issue_description": "Password reset emails never arrive. Checked spam. Tried three times over 2 days. Need access urgently for billing.",
+    "product": "Web Portal",
+    "channel": "Email",
+    "customer_segment": "Consumer",
+    "subscription_type": "Premium",
+    "expected_category": "Login Issue",
+    "expected_priority_min": "High",
+    "expected_tools": [
+      "search_similar_tickets",
+      "lookup_sla_policy"
+    ],
+    "gold_resolution_theme": "password reset email delivery",
+    "comment": "Синтетический кейс: сброс пароля",
+    "synthetic": true
+  },
+  {
+    "id": 18,
+    "ticket_id": null,
+    "subject": "Mobile and web data out of sync",
+    "issue_description": "Changes made on mobile do not appear on web for 6+ hours. Last successful sync was 2024-11-02. Premium user.",
+    "product": "Mobile App",
+    "channel": "Email",
+    "customer_segment": "Consumer",
+    "subscription_type": "Premium",
+    "expected_category": "Data Sync Issue",
+    "expected_priority_min": "Medium",
+    "expected_tools": [
+      "search_similar_tickets",
+      "lookup_sla_policy"
+    ],
+    "gold_resolution_theme": "sync queue backlog fix",
+    "comment": "Синтетический кейс: рассинхрон",
+    "synthetic": true
+  }
+]
