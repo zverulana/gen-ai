@@ -1,0 +1,57 @@
+[
+  {
+    "persona_id": "P001",
+    "name": "Alice Johnson",
+    "segment": "Premium",
+    "subscription": "Annual",
+    "tone": "angry",
+    "ticket_subject": "Account suspended without warning",
+    "ticket_body": "I was in the middle of an important project when my account got suspended. No email, no reason. This is unacceptable. Fix it now.",
+    "expected_category": "Account Suspension",
+    "expected_priority_min": "Urgent"
+  },
+  {
+    "persona_id": "P002",
+    "name": "Bob Smith",
+    "segment": "Business",
+    "subscription": "Monthly",
+    "tone": "technical",
+    "ticket_subject": "API returns 500 on user creation",
+    "ticket_body": "When calling POST /api/users with valid payload, the server returns HTTP 500 intermittently. Logs show a null pointer exception in UserService.createUser(). Please investigate.",
+    "expected_category": "Bug Report",
+    "expected_priority_min": "High"
+  },
+  {
+    "persona_id": "P003",
+    "name": "Carol White",
+    "segment": "Free",
+    "subscription": "None",
+    "tone": "confused",
+    "ticket_subject": "My data isn't syncing between devices",
+    "ticket_body": "I have the app on my phone and laptop. I added a note on my phone but it doesn't show up on my laptop. Am I missing something?",
+    "expected_category": "Data Sync Issue",
+    "expected_priority_min": "Medium"
+  },
+  {
+    "persona_id": "P004",
+    "name": "David Lee",
+    "segment": "Standard",
+    "subscription": "Monthly",
+    "tone": "polite",
+    "ticket_subject": "Could you add dark mode?",
+    "ticket_body": "Hello! I would really appreciate if you could add a dark mode option. It would be easier on my eyes during night time. Thank you for considering.",
+    "expected_category": "Feature Request",
+    "expected_priority_min": "Low"
+  },
+  {
+    "persona_id": "P005",
+    "name": "Eva Martinez",
+    "segment": "Premium",
+    "subscription": "Annual",
+    "tone": "angry",
+    "ticket_subject": "Charged twice for the same month",
+    "ticket_body": "I was charged $49.99 twice on my credit card. This is the second time this has happened. I want my money back immediately.",
+    "expected_category": "Payment Problem",
+    "expected_priority_min": "Urgent"
+  }
+]

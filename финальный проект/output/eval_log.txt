@@ -1,0 +1,64 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Evaluating 18 cases...
+
+[Q1] Account Suspension: E-commerce Store
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|██████████| 199/199 [00:00<00:00, 7523.86it/s]
+  FAIL | cat=False pri=True tools=True judge=0.7 ghost=0 fabricated=0 steps=4 cost=$0.0011
+
+[Q2] Bug Report: Payment Gateway
+  FAIL | cat=False pri=True tools=True judge=0.5 ghost=0 fabricated=0 steps=4 cost=$0.0011
+
+[Q3] Data Sync Issue: Web Portal
+  FAIL | cat=False pri=True tools=True judge=0.1 ghost=0 fabricated=0 steps=4 cost=$0.0010
+
+[Q4] Feature Request: Mobile App
+  FAIL | cat=False pri=True tools=True judge=0.1 ghost=0 fabricated=0 steps=4 cost=$0.0012
+
+[Q5] Login Issue: Cloud Storage
+  FAIL | cat=False pri=True tools=True judge=0.1 ghost=0 fabricated=0 steps=4 cost=$0.0011
+
+[Q6] Payment Problem: Cloud Storage
+  FAIL | cat=False pri=True tools=True judge=0.3 ghost=0 fabricated=0 steps=4 cost=$0.0010
+
+[Q7] Performance Issue: Cloud Storage
+  FAIL | cat=False pri=True tools=True judge=0.1 ghost=0 fabricated=0 steps=4 cost=$0.0012
+
+[Q8] Refund Request: Subscription Service
+  FAIL | cat=False pri=True tools=True judge=0.3 ghost=0 fabricated=0 steps=4 cost=$0.0011
+
+[Q9] Security Concern: CRM Platform
+  FAIL | cat=False pri=True tools=True judge=0.7 ghost=0 fabricated=0 steps=4 cost=$0.0012
+
+[Q10] Subscription Cancellation: Subscription Service
+  FAIL | cat=False pri=True tools=True judge=0.1 ghost=0 fabricated=0 steps=4 cost=$0.0011
+
+[Q11] Unauthorized charge on premium subscription
+  PASS | cat=True pri=True tools=True judge=0.95 ghost=0 fabricated=0 steps=4 cost=$0.0010
+
+[Q12] App crashes after login on iOS 18
+  PASS | cat=True pri=True tools=True judge=0.95 ghost=0 fabricated=0 steps=4 cost=$0.0012
+
+[Q13] Request: export all customer data to CSV
+  PASS | cat=True pri=True tools=True judge=0.95 ghost=0 fabricated=0 steps=4 cost=$0.0012
+
+[Q14] Suspicious login from another country
+  PASS | cat=True pri=True tools=True judge=0.95 ghost=0 fabricated=0 steps=4 cost=$0.0013
+
+[Q15] Cancel annual plan and prorated refund
+  FAIL | cat=False pri=True tools=True judge=0.7 ghost=0 fabricated=0 steps=4 cost=$0.0010
+
+[Q16] Dashboard loads 40 seconds, timeouts
+  PASS | cat=True pri=True tools=True judge=0.95 ghost=0 fabricated=0 steps=4 cost=$0.0011
+
+[Q17] Cannot reset password, email not arriving
+  PASS | cat=True pri=True tools=True judge=0.95 ghost=0 fabricated=0 steps=4 cost=$0.0011
+
+[Q18] Mobile and web data out of sync
+  PASS | cat=True pri=True tools=True judge=0.95 ghost=1 fabricated=0 steps=4 cost=$0.0008
+
+======================================================================
+Итого: 7/18 (38.9%)
+Ghost citations caught: 1
+Fabricated numbers caught: 0
+Avg steps: 4.0, avg cost: $0.00111
+Results: /Users/ulanazvereva/Documents/Мага/gen-ai/финальный_проект/output/eval_results.json
