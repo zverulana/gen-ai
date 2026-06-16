@@ -1,8 +1,8 @@
-# **Support Ticket Intelligence (финальный проект)**
+# **Support Ticket Intelligence**
 
 Автоматическая маршрутизация и черновик ответа по тикетам поддержки на датасете [Customer Support Tickets 200K](https://www.kaggle.com/datasets/mirzayasirabdullah07/customer-support-tickets-dataset-200k-records).
 
-## **Одна команда запуска**
+## **Команда запуска**
 
 ```bash
 cp .env.example .env
