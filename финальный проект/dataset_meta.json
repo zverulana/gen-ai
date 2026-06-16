@@ -1,0 +1,24 @@
+{
+  "source": "/Users/ulanazvereva/.cache/kagglehub/datasets/mirzayasirabdullah07/customer-support-tickets-dataset-200k-records/versions/1/customer_support_tickets_200k.csv",
+  "total_rows": 200000,
+  "corpus_rows": 1200,
+  "eval_cases": 18,
+  "categories": [
+    "Account Suspension",
+    "Bug Report",
+    "Data Sync Issue",
+    "Feature Request",
+    "Login Issue",
+    "Payment Problem",
+    "Performance Issue",
+    "Refund Request",
+    "Security Concern",
+    "Subscription Cancellation"
+  ],
+  "priorities": [
+    "Low",
+    "Medium",
+    "High",
+    "Urgent"
+  ]
+}
